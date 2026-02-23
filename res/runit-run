@@ -1,2 +1,2 @@
 #!/bin/sh
-exec setsid /usr/bin/emptty -d
+exec setsid /usr/bin/emptty-morecmd -d

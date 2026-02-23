@@ -1,4 +1,4 @@
-DISTFILE=emptty
+DISTFILE=emptty-morecmd
 BUILD_VERSION ?= `git describe --tags`
 GOVERSION=`go version | grep -Eo 'go[0-9]+\.[0-9]+'`
 

@@ -1,5 +1,5 @@
 type = process
-command = /etc/dinit.d/scripts/emptty
+command = /etc/dinit.d/scripts/emptty-morecmd
 restart = true
 smooth-recovery = true
 depends-on = logind

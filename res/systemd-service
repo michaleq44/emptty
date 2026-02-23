@@ -5,7 +5,7 @@ After=systemd-user-sessions.service
 [Service]
 EnvironmentFile=/etc/emptty/conf
 Type=idle
-ExecStart=/usr/bin/emptty -d
+ExecStart=/usr/bin/emptty-morecmd -d
 Restart=always
 TTYPath=/dev/tty${TTY_NUMBER}
 TTYReset=yes
